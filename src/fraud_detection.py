@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 
 # Load your historical data (CSV file or any other format) into a pandas DataFrame
 # Replace 'data.csv' with the actual file path containing your historical data
-data = pd.read_csv('data.csv')
+data = pd.read_csv('./data/data.csv')
 
 # Data preprocessing
 X = data.drop('Class', axis=1)
